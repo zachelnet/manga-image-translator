@@ -1129,8 +1129,8 @@ FIL: Filipino (Tagalog)
 | jparacrawl_big| | ✔️ | Larger Japanese translation model |
 | m2m100 | | ✔️ | Supports multilingual translation (requires NVIDIA/ctranslate2) |
 | m2m100_big | | ✔️ | Larger M2M100 model (requires NVIDIA/ctranslate2) |
-| m2m100_hf | | ✔️ | M2M100 418M via HuggingFace — works on AMD ROCm, no ctranslate2 needed |
-| m2m100_hf_big | | ✔️ | M2M100 1.2B via HuggingFace — works on AMD ROCm, no ctranslate2 needed |
+| m2m100_hf | | ✔️ | M2M100 418M via HuggingFace — works on PyTorch (Nvidia CUDA / AMD ROCm) |
+| m2m100_hf_big | | ✔️ | M2M100 1.2B via HuggingFace — works on PyTorch (Nvidia CUDA / AMD ROCm) |
 | mbart50 | | ✔️ | Multilingual translation model |
 | qwen2 | | ✔️ | Qwen2 model |
 | qwen2_big | | ✔️ | Larger Qwen2 model |
